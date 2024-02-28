@@ -1,0 +1,428 @@
+body {
+  background-color: #020204;
+  margin: 0;
+  font-family: 'Jost', sans-serif;
+  color: white;
+  ;
+}
+
+* {
+  
+  box-sizing: border-box;
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+/* HEADER */
+
+.header_liner {
+  border-bottom: 1px solid #32323D;
+}
+
+.header {
+  border-bottom: 1px solid #32323D;
+}
+
+.header_line {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 30px;
+}
+
+.header_line a {
+  text-decoration: none;
+  color: white;
+  font-size: 14px;
+  font-weight: 600;
+  font-family: 'Jost';
+  transition: all 0.5s;
+}
+
+.header_lng a:hover {
+  color: #C7A17A;
+}
+
+/* HEADER PART2 */
+
+.header_nav {
+  display: flex;
+  justify-content: space-between;
+  height: 90px;
+  align-items: center;
+}
+
+.header_title a {
+  text-decoration: none;
+  margin-right: 35px;
+  color: white;
+  font-size: 15px;
+  font-weight: 600;
+  font-family: 'Jost';
+  transition: all 0.5s;
+  position: relative;
+}
+
+.header_title a:hover {
+  color: #C7A17A;
+}
+
+.header_icon.right {
+  width: 40%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.header-icon {
+  display: flex;
+}
+
+.header_icon a {
+  margin-right: 30px;
+  position: relative;
+}
+
+.header_icon a:nth-child(3) {
+  margin-right: 0;
+}
+
+.eventCart {
+  display: block;
+  width: 6px;
+  height: 6px;
+  background-color:  #C7A17A;
+  border-radius: 50%;
+  position: absolute;
+  top: -3px;
+  right: -3px;
+}
+/* BANER */
+
+.intro_wrapper {
+  min-height: 720px;
+  display: flex;
+  align-items: center;
+  padding: 0;
+}
+
+.container_text {
+  width: 571px;
+}
+
+.container_text h1 {
+  font-size: 60px;
+  font-weight: 900;
+  text-transform: uppercase;
+  font-family: 'Jost';
+  margin-bottom: 35px;
+}
+
+.main_baner_text {
+  font-size: 18px;
+  font-weight: 400;
+  color: #DFDFDF;
+  font-family: 'Jost';
+  margin-bottom: 35px;
+  margin-top: 0;
+  line-height: normal;
+}
+
+.baner_btn_one {
+  width: 200px;
+  height: 50px;
+  margin-right: 20px;
+  color: white;
+  text-decoration: none;
+  padding: 16px 51px 16px 51px;
+  font-size: 15px;
+  font-weight: 500;
+  font-family: 'Jost';
+  border: 1px solid #666681;
+  border-radius: 10px;
+  transition: background-color 1s;
+}
+
+.baner_btn_two {
+  width: 200px;
+  height: 50px;
+  color: white;
+  text-decoration: none;
+  padding: 16px 51px 16px 51px;
+  font-size: 15px;
+  font-weight: 500;
+  font-family: 'Jost';
+  border: 1px solid #666681;
+  border-radius: 10px;
+  transition: background-color 1s;
+}
+
+.baner_btn_one:hover {
+  background-color: #C7A17A;
+}
+
+.baner_btn_two:hover {
+  background-color: #C7A17A;
+}
+
+.main_baner_button {
+  
+}
+/* MAIN */
+
+main {
+  margin-top: 100px;
+}
+
+/* UNDER BANER */
+
+.main_under_baner {
+  margin-bottom: 80px;
+}
+
+.wrapper_under_baner {
+  display: flex;
+  border-radius: 10px;
+  height: 330px;
+}
+
+.under_baner_img {
+  position: relative;
+}
+
+.under_baner_img:after {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  content: '';
+  background-color: rgb(0, 0, 0, 0.5);
+}
+
+.under_baner_text {
+  background-color: #14141D;
+  padding-left: 29px;
+  border-radius: 0 10px 10px 0;
+}
+
+.under_baner_text h2 {
+  font-size: 24px;
+  font-weight: 900;
+  text-transform: uppercase;
+  font-family: 'Jost';
+}
+
+.under_text {
+  color: #DFDFDF;
+  font-size: 18px;
+  font-weight: 400;
+  font-family: 'Jost';
+  width: 498px;
+  height: 208px;
+  margin-right: 73px;
+  margin-bottom: 42px;
+}
+
+/* END UNDER BANER */
+
+/* CATALOG */
+
+.catalog_title {
+  font-size: 40px;
+  font-weight: 900;
+  font-family: 'Jost';
+  text-transform: uppercase;
+  margin-bottom: 40px;
+}
+
+.catalog {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 21px;
+}
+
+.product {
+  width: 386px;
+  height: 372px;
+  background-color: #14141D;
+  border-radius: 10px;
+  padding-left: 20px;
+  transition: background-color 0.5s;
+}
+
+.product:hover {
+  background-color: #22222F;
+}
+
+.pack {
+  margin-top: 20px;
+  margin-left: 120px;
+}
+
+.product h3 {
+  font-size: 24px;
+  font-weight: 900;
+  text-transform: uppercase;
+  font-family: 'Jost';
+}
+
+.price_title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.price_pack {
+  display: flex;
+}
+
+.price_pack p {
+  font-size: 18px;
+  font-weight: 400;
+  font-family: 'Jost';
+  margin-right: 29px;
+}
+
+.price_pack p:nth-child(2) {
+  color: #818181;
+  text-decoration: line-through;
+}
+
+.button_favorite {
+  border: 0;
+  background: none;
+  cursor: pointer;
+  margin-right: 20px;
+  padding: 0;
+}
+
+/* END CATALOG */
+
+
+/* NEWS */
+
+.news {
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
+
+.news h1 {
+  font-size: 40px;
+  font-weight: 900;
+  text-transform: uppercase;
+  font-family: 'Jost';
+}
+
+.news_card {
+  display: flex;
+  justify-content: space-between;
+  gap: 21px;
+}
+
+.news_card img {
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.card {
+  border-radius: 10px;
+  background: #14141D;
+  width: 386px;
+  height: 465px;
+}
+
+.card h2 {
+  margin-left: 21px;
+  font-size: 24px;
+  font-weight: 900;
+  text-transform: uppercase;
+  font-family: 'Jost';
+}
+
+.card p {
+  width: 344px;
+  height: 115px;
+  color: #DFDFDF;
+  font-size: 16px;
+  font-weight: 400;
+  font-family: 'Jost';
+  margin-left: 21px;
+  margin-right: 21px;
+}
+/* END NEWS */
+/* END MAIN */
+
+/* FOOTER */
+
+.footer_main {
+  border-top: 2px solid #14141D;
+  padding-top: 80px;
+  margin-bottom: 81px;
+}
+
+.footer_block {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer_logo a {
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 900;
+  font-family: 'Jost';
+  text-transform: uppercase;
+  color: #F8DABF;
+}
+
+.block_logo {
+  display: flex;
+  align-items: center;
+}
+
+.footer_nav {
+  display: flex;
+  justify-content: space-between;
+  width: 531px;
+  margin-right: 262px;
+}
+
+.nav_main {
+  display: flex;
+  flex-direction: column;
+  gap: 21.13px;
+}
+
+.nav_main a {
+  text-decoration: none;
+  color: white;
+  font-size: 15px;
+  font-weight: 600;
+  font-family: 'Jost';
+  text-transform: uppercase;
+  transition: color 0.5s;
+}
+
+.nav_contacts {
+  display: flex;
+  flex-direction: column;
+  gap: 21.13px;
+}
+
+.nav_contacts a {
+  text-decoration: none;
+  color: white;
+  font-size: 15px;
+  font-weight: 600;
+  font-family: 'Jost';
+  text-transform: uppercase;
+  transition: color 0.5s;
+}
+
+.footer_nav a:hover {
+  color: #F8DABF;
+}
+
+/* END FOOTER */
