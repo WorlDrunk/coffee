@@ -101,15 +101,14 @@ body {
 }
 /* BANER */
 
-.intro_wrapper {
-  min-height: 720px;
-  display: flex;
-  align-items: center;
-  padding: 0;
+.container_baner {
+  margin: 0;
 }
 
 .container_text {
   width: 571px;
+  height: 720px;
+  padding-top: 195px;
 }
 
 .container_text h1 {
@@ -118,6 +117,7 @@ body {
   text-transform: uppercase;
   font-family: 'Jost';
   margin-bottom: 35px;
+  margin-top: 0;
 }
 
 .main_baner_text {
@@ -130,45 +130,25 @@ body {
   line-height: normal;
 }
 
-.baner_btn_one {
-  width: 200px;
-  height: 50px;
-  margin-right: 20px;
-  color: white;
-  text-decoration: none;
-  padding: 16px 51px 16px 51px;
-  font-size: 15px;
-  font-weight: 500;
-  font-family: 'Jost';
-  border: 1px solid #666681;
-  border-radius: 10px;
-  transition: background-color 1s;
-}
-
-.baner_btn_two {
-  width: 200px;
-  height: 50px;
-  color: white;
-  text-decoration: none;
-  padding: 16px 51px 16px 51px;
-  font-size: 15px;
-  font-weight: 500;
-  font-family: 'Jost';
-  border: 1px solid #666681;
-  border-radius: 10px;
-  transition: background-color 1s;
-}
-
-.baner_btn_one:hover {
-  background-color: #C7A17A;
-}
-
-.baner_btn_two:hover {
-  background-color: #C7A17A;
-}
-
 .main_baner_button {
-  
+  margin-bottom: 0;
+  display: flex;
+  column-gap: 24px;
+}
+
+.main_baner_button a {
+  text-decoration: none;
+  color: white;
+  font-size: 15px;
+  font-weight: 500;
+  padding: 15px 50px;
+  border: 1px solid rgb(102, 102, 129);
+  border-radius: 10px;
+  transition: background-color 1s;
+}
+
+.main_baner_button a:hover {
+  background-color: #C7A17A;
 }
 /* MAIN */
 
@@ -204,7 +184,7 @@ main {
 
 .under_baner_text {
   background-color: #14141D;
-  padding-left: 29px;
+  padding: 30px 73px 42px 29px;
   border-radius: 0 10px 10px 0;
 }
 
@@ -213,6 +193,7 @@ main {
   font-weight: 900;
   text-transform: uppercase;
   font-family: 'Jost';
+  margin: 0 0 15px 0;
 }
 
 .under_text {
@@ -222,8 +203,7 @@ main {
   font-family: 'Jost';
   width: 498px;
   height: 208px;
-  margin-right: 73px;
-  margin-bottom: 42px;
+  margin: 0;
 }
 
 /* END UNDER BANER */
@@ -236,6 +216,7 @@ main {
   font-family: 'Jost';
   text-transform: uppercase;
   margin-bottom: 40px;
+  margin-top: 0;
 }
 
 .catalog {
@@ -249,7 +230,7 @@ main {
   height: 372px;
   background-color: #14141D;
   border-radius: 10px;
-  padding-left: 20px;
+  padding: 20px;
   transition: background-color 0.5s;
 }
 
@@ -257,9 +238,12 @@ main {
   background-color: #22222F;
 }
 
+.img_pack{
+  text-align: center;
+}
+
 .pack {
-  margin-top: 20px;
-  margin-left: 120px;
+  margin: 0;
 }
 
 .product h3 {
@@ -267,6 +251,7 @@ main {
   font-weight: 900;
   text-transform: uppercase;
   font-family: 'Jost';
+  margin: 35px 0 30px 0;
 }
 
 .price_title {
@@ -277,13 +262,14 @@ main {
 
 .price_pack {
   display: flex;
+  column-gap: 29px;
 }
 
 .price_pack p {
   font-size: 18px;
   font-weight: 400;
   font-family: 'Jost';
-  margin-right: 29px;
+  margin: 0;
 }
 
 .price_pack p:nth-child(2) {
@@ -295,7 +281,6 @@ main {
   border: 0;
   background: none;
   cursor: pointer;
-  margin-right: 20px;
   padding: 0;
 }
 
@@ -314,6 +299,7 @@ main {
   font-weight: 900;
   text-transform: uppercase;
   font-family: 'Jost';
+  margin: 0 0 40px 0;
 }
 
 .news_card {
@@ -334,8 +320,12 @@ main {
   height: 465px;
 }
 
+.card_text {
+  padding: 20px 21px 38px 21px;
+}
+
 .card h2 {
-  margin-left: 21px;
+  margin: 0 0 13px 0;
   font-size: 24px;
   font-weight: 900;
   text-transform: uppercase;
@@ -349,8 +339,7 @@ main {
   font-size: 16px;
   font-weight: 400;
   font-family: 'Jost';
-  margin-left: 21px;
-  margin-right: 21px;
+  margin: 0;
 }
 /* END NEWS */
 /* END MAIN */
@@ -359,13 +348,13 @@ main {
 
 .footer_main {
   border-top: 2px solid #14141D;
-  padding-top: 80px;
-  margin-bottom: 81px;
 }
 
 .footer_block {
   display: flex;
   justify-content: space-between;
+  margin-top: 80px;
+  margin-bottom: 80px;
 }
 
 .footer_logo a {
