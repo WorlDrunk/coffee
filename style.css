@@ -1,13 +1,15 @@
+html,
 body {
   background-color: #020204;
   margin: 0;
   font-family: 'Jost', sans-serif;
   color: white;
-  ;
+  height: 100%;
 }
 
 * {
-  
+  margin: 0;
+  padding: 0;
   box-sizing: border-box;
 }
 
@@ -16,6 +18,19 @@ body {
   margin: 0 auto;
 }
 
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.content {
+  flex: 1 0 auto;
+}
+
+.footer {
+  flex: 0 0 auto;
+}
 /* HEADER */
 
 .header_liner {
@@ -102,8 +117,12 @@ body {
 /* BANER */
 
 .container_baner {
-  margin: 0;
+  background-image: url(/img/coffee.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
 }
+
 
 .container_text {
   width: 571px;
@@ -353,8 +372,9 @@ main {
 .footer_block {
   display: flex;
   justify-content: space-between;
-  margin-top: 80px;
-  margin-bottom: 80px;
+  margin: 0;
+  padding-top: 60px;
+  padding-bottom: 20px;
 }
 
 .footer_logo a {
