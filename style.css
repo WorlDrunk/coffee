@@ -16,6 +16,8 @@ body {
 .container {
   width: 1200px;
   margin: 0 auto;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 .wrapper {
@@ -116,17 +118,15 @@ body {
 }
 /* BANER */
 
-.container_baner {
+.baner {
   background-image: url(/img/coffee.jpg);
   background-repeat: no-repeat;
   background-position: center;
-  background-size: contain;
 }
-
 
 .container_text {
   width: 571px;
-  height: 720px;
+  height: 700px;
   padding-top: 195px;
 }
 
@@ -251,6 +251,7 @@ main {
   border-radius: 10px;
   padding: 20px;
   transition: background-color 0.5s;
+  cursor: pointer;
 }
 
 .product:hover {

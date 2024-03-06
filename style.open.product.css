@@ -205,6 +205,8 @@ main {
   border-radius: 5px;
   padding: 9px 19px;
   margin: 0;
+  transition: all 1s;
+  cursor: pointer;
 }
 
 .open_size p:nth-child(2) {
@@ -227,6 +229,7 @@ main {
   padding: 14px 114px 14px 114px;
   border-radius: 10px;
   transition: all 1s;
+  cursor: pointer;
   }
 
 .buy:hover {
@@ -296,6 +299,7 @@ main {
   border-radius: 10px;
   padding: 20px;
   transition: background-color 0.5s;
+  cursor: pointer;
 }
 
 .product:hover {

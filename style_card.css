@@ -186,6 +186,7 @@ body {
   background-color: #14141D;
   color: white;
   margin: 0;
+  cursor: pointer;
 }
 
 .card_and_price a {
@@ -254,7 +255,8 @@ body {
   height: 50px;
   border: 1px solid;
   border-radius: 10px;
-  transition: background-color 0.5s;
+  transition: background-color 1s;
+  cursor: pointer;
 }
 
 .btn_checkout a {
