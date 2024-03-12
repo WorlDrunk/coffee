@@ -16,6 +16,8 @@ body {
 .container {
   width: 1200px;
   margin: 0 auto;
+  padding-right: 20px;
+  padding-left: 20px;
 }
 
 .wrapper {
@@ -162,7 +164,7 @@ main {
 
 .open_purchase {
   width: 400px;
-  height: 258px;
+  height: 100%;
   background-color: #14141D;
   border-radius: 10px;
   padding: 30px;
@@ -223,7 +225,7 @@ main {
 }
 
 .buy {
-  font-size: 15px;
+  font-size: 14px;
   font-weight: 500;
   text-transform: uppercase;
   padding: 14px 114px 14px 114px;
@@ -257,7 +259,7 @@ main {
 .description_text {
   background-color: #14141D;
   border-radius: 10px;
-  height: 267px;
+  height: 100%;
   padding: 30px;
 }
 
@@ -293,8 +295,8 @@ main {
 }
 
 .product {
-  width: 386px;
-  height: 372px;
+  width: 100%;
+  height: 100%;
   background-color: #14141D;
   border-radius: 10px;
   padding: 20px;
@@ -425,3 +427,8 @@ main {
 }
 
 /* END FOOTER */
+
+
+
+
+
